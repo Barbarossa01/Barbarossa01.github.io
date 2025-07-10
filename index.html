@@ -117,6 +117,12 @@
             class="mdi-action-assessment small"></i><span>Skills</span></a>
       </li>
       
+                  <li class="bold">
+  <a aria-label="Navigate to the Penetration Test Report section" href="#pentest-report" class="waves-effect waves-dark teal-text">
+    <i class="mdi-action-description small"></i><span>Pentest Report</span>
+  </a>
+</li>
+
       <li class="bold">
         <!--
         ICONS:
@@ -124,6 +130,8 @@
         <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
             class="mdi-social-school small"></i><span>Education</span></a>
       </li>
+
+
 
       <li class="bold">
         <!-- 
@@ -139,6 +147,9 @@
           <a aria-label="Open Muhammad's resume in a new tab" href="https://github.com/Barbarossa01/Barbarossa01.github.io/blob/main/Muhammad_Zain_Din_SOCL1.pdf" target="_blank"
         class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>  
       </li>
+
+
+
     </ul>
   </nav>
 
@@ -186,6 +197,13 @@
           href="https://drive.google.com/file/d/18GXlW99rDDD4szhBJnB7crlNyuAkCvqW/view" target="_blank"
           class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
       </li>
+
+      <li class="bold">
+  <a aria-label="Navigate to the Penetration Test Report section" href="#pentest-report" class="waves-effect waves-dark teal-text">
+    <i class="mdi-action-description small"></i><span>Sample Penetration Test Report</span>
+  </a>
+</li>
+
     </ul>
   </nav>
 
@@ -230,10 +248,9 @@
     <section id="about" class="section scrollspy">
       <h3 class="page-title white-text teal">About</h3>
       <div class="container flow-text">
-        <p>
-I'm a 3rd-year IT Engineering student at Gdynia Maritime University, passionate about triaging alerts, tuning detection rules, and
-analyzing logs across Windows and Linux environments. Trained in Tier 1 SOC workflows through
-real-world lab simulations and a cybersecurity internship using Splunk, ELK, and Wazuh. <p>
+<p>
+I'm a 3rd-year IT Engineering student at Gdynia Maritime University, passionate about triaging alerts, tuning detection rules, and analyzing logs across Windows and Linux environments. Trained in Tier 1 SOC workflows through real-world lab simulations and a cybersecurity internship using Splunk, ELK, and Wazuh. I'm also deeply interested in offensive security and skilled in penetration testing, with hands-on experience conducting web application security assessments using tools like Burp Suite, SQLMap, and Nessus.
+</p>
           <ul>
             <li><b>SIEM & Detection Tools:</b> Splunk, ELK Stack, Wazuh</li>
             <li><b>Log Analysis & Alert Triage:</b> Windows Event Logs, Sysmon, auditd, MITRE ATT&CK mapping</li>
@@ -524,27 +541,24 @@ Python-based command-line tool for performing asymmetric encryption
           </div>
 
           <!-- Image Generator -->
-<!--          <div class="col s12 m6 l4">
+          <div class="col s12 m6 l4">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of  web app" src="/assets/img/gan.jpg" style="height: 100%; width: 100%" class="activator" />
+                <img alt="Screenshot of  web app" src="/assets/img/CoverPT.PNG" style="height: 100%; width: 100%" class="activator" />
               </div>
               <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Image Generator<i
+                <span class="card-title activator teal-text hoverline">Penetration Test Demo Report<i
                     class="mdi-navigation-more-vert right"></i></span>
                 <p>
-                  An image generator based on the concept of adversarial networks (GANs)
-                </p>
+ penetration testing report conducted on a simulated target environment named CodeNimbus Systems.                </p>
               </div>
               <div class="card-reveal">
                 <span class="card-title brown-text"><small>Accomplishments</small><i
                     class="mdi-navigation-close right"></i></span>
                 <ul>
-                  <li>Developed system was tested on a human-face database and loss was calculated by comparing the PCAs
-                    of generated and original image.</li>
-                  <li>Calculated difference in PCA was less than 10%, depicting the successful generation of an image by
-                    the generator.</li>
-
+                  <li>demonstrate real-world offensive security testing skills.</li>
+                  <li>documentation practices in a responsible, educational, and ethical manner.</li>
+                  <li>Tools: SQLMap, Burp Suite, Nessus, Nikto, Dirbuster, custom scripts</li>
                 </ul>
                 <div class="card-action">
                   <a aria-label="Visit the GitHub repo for  project" href="https://github.com/varadbhogayata/"
@@ -555,7 +569,7 @@ Python-based command-line tool for performing asymmetric encryption
               </div>
             </div>
           </div>
--->
+
           <!-- Head Counting System -->
           <div class="col s12 m6 l4">
             <div class="card medium">
@@ -755,6 +769,30 @@ Python-based command-line tool for performing asymmetric encryption
       </div>
     </section>
 
+    <!-- Sample Penetration Test Report Section -->
+<section id="pentest-report" class="section scrollspy">
+  <h3 class="page-title white-text teal">Sample Penetration Test Report</h3>
+  <div class="container flow-text">
+    <p>
+      This section includes a sample penetration testing report showcasing vulnerabilities discovered during a simulated web application assessment.
+      It follows industry best practices such as OWASP Top 10 and CVSSv3.1 classification.
+    </p>
+    <p>
+      🔗 <a href="https://github.com/Barbarossa01/sample-penetration-test-report" target="_blank">View the full report on GitHub</a>
+    </p>
+    <ul>
+      <li>✅ SQL Injection (Time-based)</li>
+      <li>✅ Stored XSS in Admin Panel</li>
+      <li>✅ Broken Access Control (Unauthenticated Admin Access)</li>
+      <li>✅ SSRF via URL Parameter</li>
+      <li>✅ IDOR - View Other Users' Notes</li>
+      <li>✅ Insecure Design (Password Reset)</li>
+    </ul>
+    <p>It also includes: executive summary, testing methodology, tools used (e.g., Burp Suite, Dirb, Metasploit), risk matrix, and recommendations.</p>
+  </div>
+</section>
+
+
     <!-- Seventh Section: Education -->
     <section id="education" class="section scrollspy">
       <h3 class="page-title white-text teal">Education</h3>
@@ -825,10 +863,10 @@ Python-based command-line tool for performing asymmetric encryption
       <h3 class="page-title white-text teal">Contact</h3>
       <div class="container">
         <p>
-          <a aria-label="Email Muhammad" href="mailto:muhzaindin03@gmail.com" target="_blank" data-position="top"
+          <a aria-label="Email Muhammad" href="mailto:muhammad110000000@gmail.com" target="_blank" data-position="top"
             data-tooltip="Email Muhammad" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-              class="fa fa-envelope"></i><a aria-label="Email Muhammad" href="mailto:muhzaindin03@gmail.com"
-              class="hoverline">muhzaindin03@gmail.com</a></a>
+              class="fa fa-envelope"></i><a aria-label="Email Muhammad" href="mailto:muhammad110000000@gmail.com"
+              class="hoverline">muhammad110000000@gmail.com</a></a>
         </p>
         <p>
           <a aria-label="View Muhammad on GitHub" href="https://github.com/Barbarossa01" target="_blank"
